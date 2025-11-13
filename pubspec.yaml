@@ -1,19 +1,24 @@
+
 name: office_dashboard
-description: A responsive Flutter office dashboard UI
-publish_to: "none"
+description: A modern office dashboard UI built with Flutter and fl_chart.
+publish_to: 'none' # Remove this line if you plan to publish to pub.dev
+
+version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^5.0.0
-  fl_chart: ^1.1.1
+
+  fl_chart: ^0.70.0
+  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
